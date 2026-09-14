@@ -1,6 +1,6 @@
 import Link from "next/link";
 import type { Project } from "@/lib/types";
-import { Tokenized, hasPlaceholder } from "./ui/Tokenized";
+import { Tokenized } from "./ui/Tokenized";
 import { Chip } from "./ui/Chip";
 import { Reveal } from "./ui/Reveal";
 
@@ -10,19 +10,6 @@ import { Reveal } from "./ui/Reveal";
  */
 export function CaseStudy({ project }: { project: Project }) {
   const sections = project.caseStudy ?? [];
-
-  /* The banner is for a case study that is still mostly a shell. A page
-     with one or two unfilled detail slots is not a draft — the inline
-     placeholder styling already says everything that needs saying. */
-  const pending = sections.reduce(
-    (total, section) =>
-      total +
-      [...section.body, ...(section.spec?.map((x) => x.value) ?? [])].filter(
-        hasPlaceholder,
-      ).length,
-    0,
-  );
-  const draft = pending >= 6;
 
   return (
     <article className="pb-24">
@@ -89,13 +76,6 @@ export function CaseStudy({ project }: { project: Project }) {
             ) : null}
           </div>
 
-          {draft ? (
-            <p className="mt-10 max-w-2xl rounded-lg border border-dashed border-[color:var(--pending)]/45 bg-[color:var(--pending-bg)] px-4 py-3 text-[0.8125rem] leading-relaxed text-[color:var(--pending)]">
-              Draft scaffold. Highlighted tokens are placeholders — replace each
-              with verified project detail, or remove the line. Nothing here
-              should be read as a claim until it is filled in.
-            </p>
-          ) : null}
         </div>
       </header>
 

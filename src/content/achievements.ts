@@ -9,7 +9,6 @@ export const achievements: Achievement[] = [
     date: "2024",
     detail:
       "Peer-reviewed conference paper on reverse image reconnaissance and visual equivalence detection, presented at INDIACom 2024 and indexed in IEEE Xplore.",
-    href: "[ADD IEEE XPLORE URL]",
   },
   {
     id: "ibm-genai",
@@ -18,6 +17,5 @@ export const achievements: Achievement[] = [
     date: "Sep 2026",
     detail:
       "Applied Generative AI coursework covering LLM usage patterns for data work.",
-    href: "[ADD CREDENTIAL URL]",
   },
 ];

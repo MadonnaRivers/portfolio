@@ -15,8 +15,8 @@ export function AchievementSection() {
         <ul className="space-y-3">
           {achievements.map((a, i) => (
             <Reveal key={a.id} delay={i * 70} as="li">
-              <div className="flex flex-wrap items-start justify-between gap-4 rounded-[var(--radius-card)] border border-hairline bg-[color:var(--bg-raised)] p-5 transition-colors hover:border-hairline-strong">
-                <div className="min-w-0 flex-1">
+              <div className="rounded-[var(--radius-card)] border border-hairline bg-[color:var(--bg-raised)] p-5 transition-colors hover:border-hairline-strong">
+                <div className="min-w-0">
                   <h4 className="text-[0.9375rem] leading-snug font-semibold text-ink">
                     <Tokenized text={a.title} />
                   </h4>
@@ -31,26 +31,10 @@ export function AchievementSection() {
                     <Tokenized text={a.detail} />
                   </p>
                 </div>
-                {a.href ? (
-                  <a
-                    href={a.href}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="shrink-0 rounded-full border border-hairline px-3 py-1.5 text-xs text-muted transition-colors hover:border-hairline-strong hover:text-ink"
-                  >
-                    Verify
-                  </a>
-                ) : null}
               </div>
             </Reveal>
           ))}
         </ul>
-        <Reveal>
-          <p className="mt-5 text-[0.8125rem] leading-relaxed text-faint">
-            Deliberately short. Only credentials that exist and can be verified
-            belong here.
-          </p>
-        </Reveal>
       </div>
 
       <div>

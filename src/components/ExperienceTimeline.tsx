@@ -171,9 +171,7 @@ function TimelineRow({
                   </div>
 
                   <div>
-                    <h4 className="tag mb-3 text-faint">
-                      Outcomes · verified only
-                    </h4>
+                    <h4 className="tag mb-3 text-faint">Outcomes</h4>
                     <ul className="grid gap-2 sm:grid-cols-2">
                       {role.outcomes.map((o, j) => (
                         <li
