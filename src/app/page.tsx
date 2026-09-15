@@ -4,7 +4,6 @@ import { ImpactStats } from "@/components/ImpactStats";
 import { About } from "@/components/About";
 import { ExperienceTimeline } from "@/components/ExperienceTimeline";
 import { Projects } from "@/components/Projects";
-import { ArchitectureDiagram } from "@/components/ArchitectureDiagram";
 import { SkillSection } from "@/components/SkillSection";
 import { DepthSection } from "@/components/DepthSection";
 import { AchievementSection } from "@/components/AchievementSection";
@@ -44,18 +43,8 @@ export default function Home() {
         </Section>
 
         <Section
-          id="architecture"
-          index="04"
-          kicker="How I think"
-          title="How I build AI systems."
-          lead="The reference pipeline I design against. Click any stage to see what it does, what it costs, and why it's there."
-        >
-          <ArchitectureDiagram />
-        </Section>
-
-        <Section
           id="skills"
-          index="05"
+          index="04"
           kicker="Technical stack"
           title="The stack, and how it gets used."
           lead="Capabilities first, tools second. Every entry says how it is used in a working system — no proficiency bars, no keyword padding."
@@ -65,7 +54,7 @@ export default function Home() {
 
         <Section
           id="depth"
-          index="06"
+          index="05"
           kicker="Beyond the buzzwords"
           title="The parts that decide whether it works."
           lead="Opinions formed by debugging these systems, not by reading about them. Argue with any of them in an interview."
@@ -75,7 +64,7 @@ export default function Home() {
 
         <Section
           id="achievements"
-          index="07"
+          index="06"
           kicker="Credentials"
           title="Certifications, achievements & education."
         >

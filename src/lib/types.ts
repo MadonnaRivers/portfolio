@@ -74,21 +74,6 @@ export type Project = {
   caseStudy?: CaseStudySection[];
 };
 
-export type ArchitectureNode = {
-  id: string;
-  label: string;
-  /** Short mono tag, e.g. "01" */
-  index: string;
-  /** One-line role in the pipeline. */
-  role: string;
-  /** 2–3 sentences of engineering detail. */
-  detail: string;
-  /** Concrete tools/techniques, shown as chips. */
-  techniques: string[];
-  /** Not every system uses every stage. */
-  optional?: boolean;
-};
-
 export type TechCategory =
   | "GenAI & Agents"
   | "Models"
