@@ -77,27 +77,6 @@ export function Hero() {
                 </svg>
               </a>
               <a
-                href={site.resume.href}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 rounded-full border border-hairline-strong px-5 py-3 text-sm font-medium text-ink transition-colors hover:bg-[color:var(--bg-raised)]"
-              >
-                <svg
-                  width="14"
-                  height="14"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="1.8"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  aria-hidden="true"
-                >
-                  <path d="M12 3v12m0 0 4-4m-4 4-4-4M4 19h16" />
-                </svg>
-                Download Resume
-              </a>
-              <a
                 href="#contact"
                 className="inline-flex items-center gap-2 px-3 py-3 text-sm font-medium text-muted underline-offset-4 transition-colors hover:text-ink hover:underline"
               >

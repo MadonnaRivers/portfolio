@@ -70,20 +70,12 @@ export function Contact() {
         </Reveal>
 
         <Reveal delay={180}>
-          <div className="mt-8 flex flex-wrap gap-3">
+          <div className="mt-8">
             <a
               href={`mailto:${site.email}`}
               className="inline-flex items-center gap-2 rounded-full bg-ink px-6 py-3.5 text-sm font-medium text-[color:var(--bg)] transition-opacity hover:opacity-88"
             >
               Email me
-            </a>
-            <a
-              href={site.resume.href}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 rounded-full border border-hairline-strong px-6 py-3.5 text-sm font-medium text-ink transition-colors hover:bg-[color:var(--bg-raised)]"
-            >
-              Download Resume
             </a>
           </div>
         </Reveal>

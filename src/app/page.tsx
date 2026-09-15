@@ -8,7 +8,6 @@ import { ArchitectureDiagram } from "@/components/ArchitectureDiagram";
 import { SkillSection } from "@/components/SkillSection";
 import { DepthSection } from "@/components/DepthSection";
 import { AchievementSection } from "@/components/AchievementSection";
-import { ResumeCTA } from "@/components/ResumeCTA";
 import { Contact } from "@/components/Contact";
 import { Footer } from "@/components/Footer";
 import { Section } from "@/components/ui/Section";
@@ -83,7 +82,6 @@ export default function Home() {
           <AchievementSection />
         </Section>
 
-        <ResumeCTA />
         <Contact />
       </main>
       <Footer />
