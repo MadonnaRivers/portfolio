@@ -24,7 +24,7 @@ export function Contact() {
             id="contact-title"
             className="mt-6 max-w-2xl text-balance text-4xl leading-[1.08] font-semibold tracking-[-0.03em] text-ink md:text-6xl"
           >
-            Let&apos;s build something intelligent.
+            Get in touch.
           </h2>
           <p className="mt-6 max-w-xl text-[1.0625rem] leading-relaxed text-muted">
             {site.availability}. If you are hiring for retrieval, agents or

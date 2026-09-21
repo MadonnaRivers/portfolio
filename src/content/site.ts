@@ -12,9 +12,9 @@ export const site = {
   /** Domain context — relevant to financial services and consulting hiring. */
   domain: "Financial services · lending & document intelligence",
   location: "Mumbai, Maharashtra, India",
-  /** Set this to the final domain before shipping — it drives canonical
-      URLs, the sitemap, robots.txt and the JSON-LD structured data. */
-  url: "https://[ADD DOMAIN]",
+  /** Drives canonical URLs, the sitemap, robots.txt and the JSON-LD
+      structured data. Update here if a custom domain replaces this one. */
+  url: "https://kj-portfo.netlify.app",
   email: "joshikartik902@gmail.com",
   resume: {
     href: "/resume.pdf",

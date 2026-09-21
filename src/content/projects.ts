@@ -200,7 +200,7 @@ export const projects: Project[] = [
       "~91–93% accuracy on 5,000+ documents",
       "~1–2s inference per document",
     ],
-    links: {},
+    links: { github: "https://github.com/MadonnaRivers/image_morphing" },
     caseStudy: [
       {
         id: "overview",
@@ -290,6 +290,44 @@ export const projects: Project[] = [
         ],
       },
     ],
+  },
+  {
+    slug: "collections-voice-agent",
+    name: "Collections Voice Agent",
+    problem:
+      "Collections calls are repetitive, high-volume and time-sensitive, and each one still needs to understand what the person on the line actually said.",
+    built:
+      "A telephony voice agent that runs a full call loop: speech-to-text, intent classification, LLM-driven response orchestration and text-to-speech, with per-call session state and audio denoising. Handles English and Hindi intents.",
+    categories: ["LLM Application"],
+    stack: [
+      "Python",
+      "FastAPI",
+      "OpenAI",
+      "Pydantic",
+      "Speech-to-Text",
+      "Text-to-Speech",
+      "Intent Classification",
+      "Telephony Webhooks",
+      "Nginx",
+    ],
+    architecture: [
+      "Call",
+      "STT",
+      "Intent Classify",
+      "LLM Orchestrator",
+      "TTS",
+      "Response",
+    ],
+    contribution:
+      "Built the call handling, intent classifier, LLM orchestration layer and the speech pipeline, with a regression test suite covering intent and conversation flows.",
+    impact: [
+      "Full duplex call loop: STT → intent → LLM → TTS",
+      "English and Hindi intent handling",
+      "Test suite over recorded call logs and LLM flows",
+    ],
+    links: {
+      github: "https://github.com/MadonnaRivers/collection_voicebot",
+    },
   },
   {
     slug: "hrms-chatbot",
