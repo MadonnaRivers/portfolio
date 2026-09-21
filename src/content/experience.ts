@@ -21,6 +21,7 @@ export const roles: Role[] = [
       "Instrumented the system with LangFuse for tracing and evaluation, which is what made the latency and cost reductions measurable rather than anecdotal.",
       "Built the core RAG pipeline — document parsing, Sentence-Transformer embeddings, ChromaDB/FAISS retrieval with reranking.",
       "Deployed the stack on AWS (EC2, ECS, S3, Lambda) with Docker for production use.",
+      "Set up MLOps practices around the assistant \u2014 CI/CD pipelines for containerised deployments, model and version tracking, and evaluation-driven release checks that keep model routing and prompt changes production-safe.",
       "Developed an **Image Forgery Detection** pipeline using transformer-based RGB + noise-fingerprint fusion, evaluated on 5,000+ documents.",
     ],
     outcomes: [
@@ -48,6 +49,8 @@ export const roles: Role[] = [
       "AWS ECS",
       "AWS S3",
       "AWS Lambda",
+      "CI/CD",
+      "MLOps",
     ],
   },
   {

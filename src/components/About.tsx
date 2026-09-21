@@ -3,21 +3,18 @@ import { Reveal } from "./ui/Reveal";
 import { Tokenized } from "./ui/Tokenized";
 
 const paragraphs = [
-  "I'm an AI Engineer in Mumbai with 3+ years building and deploying Generative AI systems, currently inside financial services. I architect and operate EasyGPT at Easy Home Finance — an enterprise Agentic RAG assistant serving 40+ users across 3 teams at 1,000+ queries a day.",
-  "I came into GenAI through deep learning. My first role was CNNs and transformers in PyTorch and TensorFlow — image classification, feature extraction, transfer learning — and that set the habit that matters most in this field: evaluate the thing, don't trust the demo. A model that looks right on ten examples is not a result.",
-  "The work moved up the stack from there. Retrieval systems where chunking and reranking decide answer quality long before the prompt does. Agent layers built as LangGraph state machines — 3 specialised agents, 6 tools behind MCP — because a graph can be bounded, traced and tested where a free-running loop cannot. Model routing across OpenAI and Gemini, which is where most of the latency and cost reduction actually came from.",
-  "I still ship computer vision alongside it: a transformer-based image forgery detector fusing RGB and noise-fingerprint signals, evaluated across 5,000+ documents. Different problem, same discipline — measure it properly or you don't know.",
-  "The problems I like are the ones between a working prototype and a system people depend on: retrieval that fails silently, context windows spent badly, agents that pick a plausible wrong tool, latency that only shows up under load, and token cost that only shows up in the bill.",
+  "I'm an AI Engineer based in Mumbai with 3+ years building and deploying Generative AI systems, currently in financial services. At Easy Home Finance I architect and operate EasyGPT, an enterprise Agentic RAG assistant serving 40+ users across 3 teams at 1,000+ queries a day.",
+  "My work covers the full path from retrieval to production: document ingestion and vector search, agent orchestration in LangGraph, model routing across OpenAI and Gemini, FastAPI services, and deployment on AWS with Docker \u2014 supported by CI/CD, model and version tracking, and evaluation-driven release checks.",
+  "I came into Generative AI through deep learning, training CNN and transformer models in PyTorch and TensorFlow, and still ship computer vision alongside LLM work \u2014 most recently a transformer-based image forgery detector evaluated across 5,000+ documents.",
 ];
 
 const facts = [
-  { k: "Current", v: "AI Engineer · Easy Home Finance" },
+  { k: "Current", v: "AI Engineer \u00b7 Easy Home Finance" },
   { k: "Since", v: "Jun 2025" },
   { k: "Experience", v: "3+ years across 4 AI roles" },
-  { k: "Domain", v: "Financial services · lending" },
+  { k: "Domain", v: "Financial services \u00b7 lending" },
   { k: "Based in", v: "Mumbai, India" },
-  { k: "Education", v: "B.E. AI & Data Science · CGPA 8.29" },
-  { k: "Working on", v: "Agentic RAG · LLM systems · CV" },
+  { k: "Education", v: "B.E. AI & Data Science \u00b7 CGPA 8.29" },
 ];
 
 export function About() {
@@ -26,7 +23,7 @@ export function About() {
       id="about"
       index="01"
       kicker="About"
-      title="I build AI systems that have to keep working after the demo."
+      title="AI Engineer, production Generative AI."
     >
       <div className="grid gap-12 lg:grid-cols-[minmax(0,1.55fr)_minmax(0,1fr)] lg:gap-20">
         <div className="space-y-6">

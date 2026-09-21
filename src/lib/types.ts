@@ -103,13 +103,6 @@ export type SkillGroup = {
   items: { name: string; detail: string }[];
 };
 
-export type DepthTopic = {
-  id: string;
-  title: string;
-  body: string;
-  tags: string[];
-};
-
 export type Achievement = {
   id: string;
   title: string;

@@ -7,8 +7,8 @@ export const site = {
   /** Positioning line — the one sentence everything else supports. */
   positioning: "AI Engineer building production-grade Generative AI systems.",
   subline:
-    "I build RAG, Agentic AI and LLM-powered applications, and take them from experimentation to production with LangGraph, FastAPI, Docker and AWS.",
-  discipline: "Generative AI · Agentic AI · RAG · LLM Systems · AWS",
+    "I build RAG, Agentic AI and LLM applications and take them to production with LangGraph, FastAPI, Docker and AWS, backed by CI/CD and evaluation tooling.",
+  discipline: "Generative AI · Agentic AI · LLM, RAG & MLOps Systems",
   /** Domain context — relevant to financial services and consulting hiring. */
   domain: "Financial services · lending & document intelligence",
   location: "Mumbai, Maharashtra, India",

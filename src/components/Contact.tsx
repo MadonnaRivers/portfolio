@@ -27,9 +27,8 @@ export function Contact() {
             Let&apos;s build something intelligent.
           </h2>
           <p className="mt-6 max-w-xl text-[1.0625rem] leading-relaxed text-muted">
-            {site.availability}. If you&apos;re working on retrieval, agents or
-            LLM systems that need to run in production — or you want to talk
-            through an architecture — I&apos;m easy to reach.
+            {site.availability}. If you are hiring for retrieval, agents or
+            LLM systems in production, I&apos;d be glad to talk.
           </p>
         </Reveal>
 
