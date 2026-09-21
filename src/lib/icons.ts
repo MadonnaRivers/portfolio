@@ -18,6 +18,7 @@ import {
   siPydantic,
   siPython,
   siPytorch,
+  siQdrant,
   siTensorflow,
 } from "simple-icons";
 
@@ -111,6 +112,7 @@ export const glyphs: Record<string, Glyph> = {
 
   // Data & vector stores
   ChromaDB: { kind: "mono", label: "CDB" },
+  Qdrant: brand(siQdrant),
   FAISS: { kind: "mono", label: "FS" },
   Pinecone: { kind: "mono", label: "PC" },
   MongoDB: brand(siMongodb),

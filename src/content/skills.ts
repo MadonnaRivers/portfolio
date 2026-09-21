@@ -74,6 +74,7 @@ export const skillGroups: SkillGroup[] = [
     items: [
       { name: "ChromaDB", detail: "Vector store for production retrieval" },
       { name: "FAISS", detail: "Similarity search over dense embeddings" },
+      { name: "Qdrant", detail: "Vector database with payload filtering" },
       { name: "Pinecone", detail: "Managed vector store" },
       { name: "MongoDB", detail: "Document storage alongside the vector index" },
     ],

@@ -111,6 +111,7 @@ export const techStack: TechItem[] = [
   // Data & Vector
   { name: "ChromaDB", category: "Data & Vector", detail: "Vector store behind production retrieval" },
   { name: "FAISS", category: "Data & Vector", detail: "Similarity search over dense embeddings" },
+  { name: "Qdrant", category: "Data & Vector", detail: "Vector database with payload filtering" },
   { name: "Pinecone", category: "Data & Vector", detail: "Managed vector store" },
   { name: "MongoDB", category: "Data & Vector", detail: "Document storage beside the vector index" },
 ];
